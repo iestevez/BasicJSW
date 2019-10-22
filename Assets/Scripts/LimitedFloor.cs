@@ -51,7 +51,7 @@ public class LimitedFloor : MonoBehaviour {
         {
             foreach(Collider collider in colliders)
             {
-                print("N colliders "+  colliders.Length+ " Min "+collider.bounds.min+ " Max "+collider.bounds.max);
+                
                 
                 if (min.x > collider.bounds.min.x)
                     min.x = collider.bounds.min.x;
@@ -70,8 +70,7 @@ public class LimitedFloor : MonoBehaviour {
             }
         }
         limits.SetMinMax(min, max);
-        print("Min "+limits.min);
-         print("Max "+limits.max);
+       
 
     }
 

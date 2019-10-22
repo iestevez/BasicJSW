@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 02dde20b723a4fd479ac33919331fb49
+guid: b36bd6d9d3eb7e845a57e70714f1a5bf
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: 52e56d625745a1244bf1f8b5cf09adf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: bdfafafc4b652424ab4649e2d08ef77d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_NMWall.001
+    second: {fileID: 2800000, guid: f114d9693c55ea24a839e14cb4c4f0d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: T_Painted.001
+    second: {fileID: 2800000, guid: 4eeb3d68333271e4c80936b7493c612e, type: 3}
   materials:
     importMaterials: 1
     materialName: 0
@@ -36,7 +56,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
